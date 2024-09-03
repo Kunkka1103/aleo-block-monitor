@@ -36,7 +36,7 @@ func main() {
 
 	// 定义 Prometheus Gauge
 	gauge := prometheus.NewGauge(prometheus.GaugeOpts{
-		Name: "block_height_max",
+		Name: "oula_block_max_height",
 		Help: "The maximum block height",
 	})
 
